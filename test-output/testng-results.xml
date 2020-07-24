@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73614" started-at="2020-07-24T10:10:50 IST" finished-at="2020-07-24T10:12:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73614" started-at="2020-07-24T10:10:50 IST" finished-at="2020-07-24T10:12:03 IST">
+      <class name="com.wordpress.qa.testcases.SearchFlightPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.SearchFlightPageTest@2173f6d9]" name="setup" is-config="true" duration-ms="20835" started-at="2020-07-24T10:10:51 IST" finished-at="2020-07-24T10:11:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchFligh(java.lang.String, java.lang.String)[pri:0, instance:com.wordpress.qa.testcases.SearchFlightPageTest@2173f6d9]" name="SearchFligh" duration-ms="49946" started-at="2020-07-24T10:11:12 IST" data-provider="getData" finished-at="2020-07-24T10:12:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bengaluru (BLR)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Genoa (GOA)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFligh -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.wordpress.qa.testcases.SearchFlightPageTest@2173f6d9]" name="teardown" is-config="true" duration-ms="1624" started-at="2020-07-24T10:12:02 IST" finished-at="2020-07-24T10:12:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.wordpress.qa.testcases.SearchFlightPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
